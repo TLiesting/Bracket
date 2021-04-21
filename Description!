@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { 
+  background: url(https://i.ibb.co/fC7Y3zL/1ring.png); 
+  background-size: cover;
+  background-image: url(https://i.ibb.co/fC7Y3zL/1ring.png), radial-gradient(circle, #e6e6e6, #ffcc00, #992600); 
+  background-blend-mode: luminosity;
+  background-size: cover;  
+  background-clip: padding-box;
+  background-position: centre;
+  border-style: inset;
+  border: 8px (#0081AB, 100%);
+  border-radius: 8px;
+ background-color: silver3; 
+  	background-attachment: fixed;
+   	text-align: center;
+    color: blue;
+  	padding: 0em 1em;
+  	position: absolute;
+      animation-name: disco;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+ }      
+    @keyframes disco {
+  0%   {background-color: firebrick4;}  
+  5%  {background-color: Firebrick;}  
+  10%  {background-color: brown3;}  
+  15%  {background-color: chocolate2;} 
+  20%  {background-color: darkorange1;} 
+  25%  {background-color: orange1;} 
+  30%  {background-color: DarkGoldenrod1;}  
+  35%  {background-color: goldenrod1;}  
+  40% {background-color: Gold;}  
+   45%  {background-color: yellow;} 
+   50%  {background-color: lightgoldenrod1;} 
+55%  {background-color: yellow;}  
+  60% {background-color: Gold;}  
+     65%  {background-color: goldenrod1;}
+     70%  {background-color: DarkGoldenrod1;}
+    75%  {background-color: orange1;}
+   80%  {background-color: darkorange1;}
+   85%  {background-color: chocolate2;}
+   90%  {background-color: brown3;}
+    95%  {background-color: Firebrick;}
+  100%  {background-color: firebrick4;} 
+  }
+h1 {
+  font-size: 35px;
+  line-height: 2;
+  color: black;
+  text-decoration: overline;
+  text-shadow: 0 0 5px #FF0000;
+  letter-spacing: 3px;
+  font-family: Copperplate, Papyrus, fantasy;
+  word-spacing: 5px;
+  word-wrap: break-word;
+  text-align: center;
+  border-style: inset;
+  padding: em 1em;
+  border: 4px (#0081AB, 100%);
+  border-radius: 12px;
+  }
+h2{
+  font-size: 30px;
+  line-height: 2;
+  color: black;
+  text-decoration: overline;
+  text-shadow: 0 0 4px #FF0000;
+  letter-spacing: 3px;
+  font-family: Copperplate, Papyrus, fantasy;
+  word-spacing: 5px;
+  word-wrap: break-word;
+  text-align: center;
+  }
+h3{
+  font-size: 29px;
+  line-height: 2;
+  color: black;
+  text-decoration: overline;
+  text-shadow: 0 0 3px #FF0000;
+  letter-spacing: 3px;
+  font-family: Copperplate, Papyrus, fantasy;
+  word-spacing: 5px;
+  word-wrap: break-word;
+  }
+
+p.a {
+  font-size: 20px;
+  color: blue;
+  line-height: 1;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 900;
+  text-shadow: 0 0 5px #FF0000;
+  letter-spacing: 1px;
+  word-spacing: 0px;
+  word-wrap: break-word;
+  grid-auto-rows: auto;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  }
+p.b{ 	
+font-size: 18px;
+line-height: em;
+text-align: center;
+font-family: "Lucida Console", "Courier New", monospace;
+font-weight: 900;
+text-shadow: 0 0 5px #FF0000;
+letter-spacing 1px;
+word-spacing: 0px'
+word-wrap: break-word;
+grid-auto-rows: auto;
+white-space: pre-wrap;
+white-space: pre-line;
+}        
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(even) {background-color: rgb(255, 255, 0, 0.45);}
+tr:nth-child(odd) {background-color: rgb(255, 0, 0, 0.45);}
+p.c{
+font-size: 16px;
+line-height: 2;
+text-align: left;
+font-family: "Lucida Console", "Courier New", monospace;
+font-weight: 900;
+text-shadow: 0 0 5px #FF0000;
+letter-spacing 2px;
+word-spacing 2px'
+word-wrap: break-word;
+grid-auto-rows: auto;
+white-space: pre-wrap;
+white-space: pre-line;
+}  
+</style>
+</head>
+<body>
+<h1>Want that text inside those brackets?</h1>
+<table>
+  <tr>
+  <th> </th>
+  <th> </th>
+  <th> </th>
+  </tr>
+  <tr>
+  <td><p class="c">(Do you want this text to be)</p></td>
+  <td></td>
+  <td><p class="b">over here?</p></td>
+  </tr>
+  <tr>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+  <tr>
+  <td><p class="c">and <b>this</b> text to be</p></td>
+  <td> </td>
+  <td><p class="b">[inside here]?</p> </td>
+  </tr>
+  <tr>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  </tr>
+</table>                                           		  		  		 
+<h3><strong><b>Then you have come to the right place</b></strong></h3>
+<p class="b"><b>With this Regex you can match text (in) and out of brackets. Swap text in the brackets with that outside of it. Or even change one, the other or both of them. or change the [brackets} for that matter.
+
+I made this Redex because while playing the game Third Age Total War (about Lord of the Rings)
+		all the famous characters have some special trait, but on their character page it's all displayed as Biography. Doesn't matter if it is Boromir or Sauron. all their special traits are called Biography.
+		in the data file any text captured by {...} is not displayed in game and any text outside of it is. Simply changing the text inside {...} would mess up so many other files because the game calculates movement and statistics with term. as there are over 150 characters I was too lazy to do it manually so here is the Regex for it.</b></p>
+<h2>The reason for this</h2>
+<p class="a">This is a short example of that file</p>
+
+<details>	<summary><p class="a">Legolas</p></summary>
+<p class="c"> {Legolas}Biography
+		{Legolas_desc}Legolas is the son of Thranduil, King of the Woodland Realm of Northern Mirkwood. Although he lives among the Silvan Elves, Legolas is not strictly Silvan himself. His father Thranduil originally came from Lindon; he and his son are actually Sindar, or "Grey Elves". A small minority of Sindar rules the predominantly Silvan Woodland Realm.
+		{Legolas_effects_desc}Command +10 General's Hit Points +6 Personal Security +2 Line of Sight +3 Movement Points +4 Ambush +3 Loyalty +6 Respect </p></details>
+
+
+<details>	<summary><p class="a">Legolas</p></summary>
+<p class="c">   {Legolas} <b>Legolas*</b>
+		{Legolas_desc}Legolas is the son of Thranduil, King of the Woodland Realm of Northern Mirkwood. Although he lives among the Silvan Elves, Legolas is not strictly Silvan himself. His father Thranduil originally came from Lindon; he and his son are actually Sindar, or "Grey Elves". A small minority of Sindar rules the predominantly Silvan Woodland Realm.
+		{Legolas_effects_desc}Command +10 General's Hit Points +6 Personal Security +2 Line of Sight +3 Movement Points +4 Ambush +3 Loyalty +6 Respect </p></details>
+
+<p class="b">And there we have it, as you can see the code also leaves out the other entries of Legolas. the Legolas_desc and Legolas_effects_desc</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
